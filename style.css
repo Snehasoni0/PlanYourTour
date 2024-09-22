@@ -1,0 +1,563 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif ;
+}
+button{
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.header-middle{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0px;
+}
+.menu ul{
+    display:  flex;
+    gap: 20px;
+}
+.menu ul li{
+    font-size: 18px;
+    color: black;
+}
+.header-button{
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: #FF6000;
+    color: white;
+    border: none;
+}
+.header-button a{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(images/banner.webp)no-repeat center;
+    background-size: cover;
+    position: relative;
+    top: 90px;
+    z-index: -1;
+}
+.banner-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.banner-content{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner-left{
+    flex-basis: 60%;
+    margin-top: 110px;
+
+}
+.banner-left h1{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.banner-left h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0px;
+    font-weight: normal;
+}
+.banner-button{
+    padding: 15px 45px;
+    font-weight: bold;
+    font-family:"Poppins", sans-serif ;
+    background-color: #FF6000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.banner-right{
+    flex-basis: 25%;
+    margin-top: 110px;
+    margin-left: 35px;
+}
+.form-box{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+.form-box input{
+    font-size: 20px;
+    width: 95%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 0px 10px;
+    
+}
+.form-box input::placeholder{
+    font-size: 18px;
+}
+.form-box{
+    padding: 10px 15px;
+ }
+ .form-box form button{
+    width: 100%;
+    margin: 15px 3px;
+    background-color: #FF6000;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 0px;
+    color: white;
+    font-weight: 15px;
+    font-weight: bold;
+ }
+form h2{
+    font-weight: bold;
+    text-align: center;
+    padding:20px 0px 10px 0px;
+}
+.package{
+    width: 100%;
+    margin: 20px 0px 100px 0px;
+}
+.package-middle{
+    width: 1320px;
+    margin: auto;
+}
+.package-header{
+    width: 100%;
+    text-align: center;
+}
+.package-header h4{
+    font-size: 25px;
+    font-weight: normal;
+    color: #22a813;
+    font-family: "Kaushan Script", cursive;
+    margin-top: 70px;
+}
+.package-header h2{
+    font-size: 45px;
+    margin: 15px 0px;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    margin: auto;
+    background-color:#22a813 ;
+}
+.package-header p{
+    padding: 20px 0px;
+}
+.package-content{
+    width: 100%;
+}
+.items{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.item{
+    flex-basis: 27%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+}
+.item img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    border: 0px;
+}
+.img-content{
+    width: 100%;
+    text-align: center;
+}
+.img-content h3{
+    font: 20px;
+    padding: 15px 0px;
+    color: #333333;
+}
+.img-content h2{
+    font: 30px;
+    padding: 0px 10px;
+    color: #333333;
+}
+.img-content p{
+    font-size: 16px;
+    padding: 15px 20px;                 
+}
+.item-service{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service{
+    width: 35%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 7px;
+    font-size: 15px;
+}
+.service i{
+    font-size: 13px;
+}
+.price{
+    width: 90%;
+    margin: 0px 5%;
+    color: #22a813;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.package-button{
+    width: 90%;
+    margin: 0px 5%;
+    padding: 15px 0px;
+    background-color: #FF6000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    height: 400px;
+    background: url(images/about_kerala.webp)no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+.about-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+.about-middle{
+    width: 1320px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.about-header{
+    width: 100%;
+    position: absolute;
+    margin: 50px 0px;
+  
+}
+.about-header h4{
+    padding: 30px 0px 10px 0px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Kaushan Script", cursive;
+    color: #22a813;
+}
+.about-header h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 25px;
+}
+.about-line{
+    width: 50px;
+    height: 2px;
+    margin: auto;
+    background-color:#22a813 ;
+}
+.about-header p{
+    color: white;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+.about-inner{
+    width: 400px;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+}
+.benefit{
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.benefit-middle{
+    width: 1220px;
+    margin: auto;
+    text-align: center;
+}
+.benefit-header{
+    width: 100%;
+}
+.benefit-header h4{
+    color: #22a813;
+    font-family: "Kaushan Script", cursive; 
+    font-size: 25px;
+}
+.benefit-header h2{
+    font-size: 60px;
+    margin: 15px 0px;
+}
+.benefit-header p{
+    font-size: 18px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.benefit-content{
+    width: 100%;
+}
+.benefit-items{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.benefit-item{
+    flex-basis: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    border-radius: 50px;
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.benefit-item i{
+    margin-right: 15px;
+    margin-left: 20px;
+    color: #22a813;
+    font-size: 25px;
+}
+.customer{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.customer-content{
+    width: 100%;
+}
+.customer-items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.customer-item{
+    width: 45%;
+    background-color: #F3F4F6;
+    padding: 40px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px #ccc;
+    font-style: italic;
+}
+.customer-item p{
+    font-size: 16px;
+    line-height: 22px;
+}
+.customer-item h2{
+    margin: 10px 0px;
+}
+.discount{
+    width: 100%;
+    height: 320px;
+    background: url(images/discount.jpg)no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    margin: 50px 0px;
+}
+.discount-cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+}
+.discount-middle{
+    width: 1320px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+.discount-header{
+    width: 100%;
+    padding: 30px 0px;
+}
+.discount-header h4{
+    color: #22a813;
+    font-family: "Kaushan Script", cursive; 
+    font-size: 25px;
+    padding-top: 50px;
+}
+.discount-header h2{
+    font-size: 60px;
+    margin: 15px 0px;
+}
+.discount-header button{
+    margin-top: 7px;
+    padding: 15px 40px;
+    background-color: #FF6000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.discount-header button>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.faq{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.accordian{
+    max-width: 900px;
+    margin:50px auto;
+  }
+  .faq-item{
+    background: rgb(240, 237, 237);
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  .show{
+    font-size: 30px;
+  }
+  .answer{
+    padding: 10px;
+    display: none;
+    text-align: start;
+    font-size: 15px;
+    line-height: 22px;
+    border-top: 1px solid rgb(187, 180, 180);
+
+  }
+  .show-answer{
+    display: block;
+  }
+  
+.booknow{
+    width: 100%;
+}
+.booknow form{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.name{
+    /* width: 35%; */
+    padding: 10px 15px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border-radius: 5px;    
+}
+.name i{
+    font-size: 23px;
+    text-align: left;
+    margin-right:10px ;
+    margin-left: 10px;
+}
+.name input{
+     width: 350px;
+     border: none;
+     padding: 20px 0px;
+}
+.name input::placeholder{
+    padding: 10px;
+    font-size: 20px;
+}
+.submit{
+    width: 90%;
+    padding: 18px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FA5F00;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    background-color: #F3F4F6;
+    padding: 50px 0px;
+}
+.footer-middle{
+    width: 1320px;
+    margin: auto;
+    text-align: center;
+}
+.footer-header{
+    width: 100%;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Kaushan Script", cursive;
+    color: #22a813;
+}
+.social{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social-item{
+    width: 35px;
+    height: 50px;
+    border-radius: 60%;
+    background-color: white;
+}
+.social-item-inner{
+    padding-top: 14px;
+}
+.social-item  a i{
+    font-size: 20px;
+    color: black;
+}
+.rights{
+    width: 100%;
+    padding: 15px 0px;
+}
